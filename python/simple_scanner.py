@@ -10,6 +10,7 @@ if len(sys.argv) == 2:
 else:
     print("Invalid ammount of arguments.")
     print("python3 scanner.py <ip>")
+    sys.exit()
 
 #Add a banner
 print("-" * 50)
